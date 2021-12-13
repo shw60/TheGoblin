@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{4AB4100C-4A24-F240-946D-3C8CABFA9214}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "TheGoblin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "SteamVR",
